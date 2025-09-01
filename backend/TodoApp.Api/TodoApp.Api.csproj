@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\TodoApp.Base\TodoApp.Base.csproj" />
+    <ProjectReference Include="..\TodoApp.Data\TodoApp.Data.csproj" />
   </ItemGroup>
 
 </Project>

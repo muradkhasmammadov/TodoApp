@@ -9,3 +9,4 @@ C:\Users\murad\TodoApp\backend\TodoApp.Base\obj\Debug\net9.0\TodoApp.Base.dll
 C:\Users\murad\TodoApp\backend\TodoApp.Base\obj\Debug\net9.0\refint\TodoApp.Base.dll
 C:\Users\murad\TodoApp\backend\TodoApp.Base\obj\Debug\net9.0\TodoApp.Base.pdb
 C:\Users\murad\TodoApp\backend\TodoApp.Base\obj\Debug\net9.0\ref\TodoApp.Base.dll
+C:\Users\murad\TodoApp\backend\TodoApp.Base\obj\Debug\net9.0\TodoApp.Base.sourcelink.json

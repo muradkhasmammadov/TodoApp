@@ -110,3 +110,4 @@ C:\Users\murad\TodoApp\backend\TodoApp.Tests\obj\Debug\net9.0\refint\TodoApp.Tes
 C:\Users\murad\TodoApp\backend\TodoApp.Tests\obj\Debug\net9.0\TodoApp.Tests.pdb
 C:\Users\murad\TodoApp\backend\TodoApp.Tests\obj\Debug\net9.0\TodoApp.Tests.genruntimeconfig.cache
 C:\Users\murad\TodoApp\backend\TodoApp.Tests\obj\Debug\net9.0\ref\TodoApp.Tests.dll
+C:\Users\murad\TodoApp\backend\TodoApp.Tests\obj\Debug\net9.0\TodoApp.Tests.sourcelink.json
