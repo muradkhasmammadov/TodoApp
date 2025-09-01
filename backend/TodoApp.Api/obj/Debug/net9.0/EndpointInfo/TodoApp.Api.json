@@ -184,23 +184,19 @@
         "additionalProperties": false
       },
       "UpdateTodoDto": {
-        "required": [
-          "description"
-        ],
         "type": "object",
         "properties": {
           "description": {
             "maxLength": 500,
-            "minLength": 1,
-            "type": "string"
+            "type": "string",
+            "nullable": true
           },
           "isDone": {
             "type": "boolean"
           },
           "dueDate": {
             "type": "string",
-            "format": "date-time",
-            "nullable": true
+            "format": "date-time"
           }
         },
         "additionalProperties": false

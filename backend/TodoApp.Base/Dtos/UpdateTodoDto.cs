@@ -9,10 +9,9 @@ namespace TodoApp.Base.Dtos
 {
     public class UpdateTodoDto
     {
-        [Required]
         [MaxLength(500)]
         public string Description { get; set; } = string.Empty;
         public bool IsDone { get; set; }
-        public DateTime? DueDate { get; set; }
+        public DateTime DueDate { get; set; }
     }
 }

@@ -46,6 +46,9 @@ C:\Users\murad\TodoApp\backend\TodoApp.Api\bin\Debug\net9.0\Microsoft.OpenApi.dl
 C:\Users\murad\TodoApp\backend\TodoApp.Api\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
 C:\Users\murad\TodoApp\backend\TodoApp.Api\bin\Debug\net9.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\murad\TodoApp\backend\TodoApp.Api\bin\Debug\net9.0\Mono.TextTemplating.dll
+C:\Users\murad\TodoApp\backend\TodoApp.Api\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\murad\TodoApp\backend\TodoApp.Api\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\murad\TodoApp\backend\TodoApp.Api\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\murad\TodoApp\backend\TodoApp.Api\bin\Debug\net9.0\System.ClientModel.dll
 C:\Users\murad\TodoApp\backend\TodoApp.Api\bin\Debug\net9.0\System.CodeDom.dll
 C:\Users\murad\TodoApp\backend\TodoApp.Api\bin\Debug\net9.0\System.Composition.AttributedModel.dll
@@ -169,6 +172,3 @@ C:\Users\murad\TodoApp\backend\TodoApp.Api\obj\Debug\net9.0\refint\TodoApp.Api.d
 C:\Users\murad\TodoApp\backend\TodoApp.Api\obj\Debug\net9.0\TodoApp.Api.pdb
 C:\Users\murad\TodoApp\backend\TodoApp.Api\obj\Debug\net9.0\TodoApp.Api.genruntimeconfig.cache
 C:\Users\murad\TodoApp\backend\TodoApp.Api\obj\Debug\net9.0\ref\TodoApp.Api.dll
-C:\Users\murad\TodoApp\backend\TodoApp.Api\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\murad\TodoApp\backend\TodoApp.Api\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\murad\TodoApp\backend\TodoApp.Api\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll

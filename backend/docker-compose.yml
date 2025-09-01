@@ -1,0 +1,58 @@
+version: '3.8'
+
+services:
+  # SQL Server Database
+  database:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=YourStrong!Passw0rd
+      - MSSQL_PID=Express
+    ports:
+      - "1433:1433"
+    volumes:
+      - sqlserver_data:/var/opt/mssql
+    networks:
+      - todoapp-network
+
+  # Backend API
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "5034:5034"
+      - "7034:7034"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - ASPNETCORE_URLS=http://+:5034;https://+:7034
+      - ConnectionStrings__DefaultConnection=Server=database,1433;Database=TodoAppDb;User Id=sa;Password=YourStrong!Passw0rd;TrustServerCertificate=true;
+      - ASPNETCORE_Kestrel__Certificates__Default__Password=password
+      - ASPNETCORE_Kestrel__Certificates__Default__Path=/https/aspnetapp.pfx
+    volumes:
+      - ~/.aspnet/https:/https:ro
+    depends_on:
+      - database
+    networks:
+      - todoapp-network
+
+  # Frontend React App
+  frontend:
+    build:
+      context: ./frontend/todoui
+      dockerfile: Dockerfile
+    ports:
+      - "3000:80"
+    environment:
+      - REACT_APP_API_URL=http://localhost:5034/api
+    depends_on:
+      - backend
+    networks:
+      - todoapp-network
+
+volumes:
+  sqlserver_data:
+
+networks:
+  todoapp-network:
+    driver: bridge
