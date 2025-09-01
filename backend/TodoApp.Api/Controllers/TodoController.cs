@@ -4,8 +4,6 @@ using TodoApp.Base.Interfaces;
 
 namespace TodoApp.Api.Controllers
 {
-    public class TodoController : Controller
-    {
         [ApiController]
         [Route("api/[controller]")]
         public class TodosController : ControllerBase
@@ -54,4 +52,3 @@ namespace TodoApp.Api.Controllers
             }
         }
     }
-}

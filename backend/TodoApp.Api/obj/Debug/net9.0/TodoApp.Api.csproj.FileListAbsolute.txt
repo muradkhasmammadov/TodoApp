@@ -169,3 +169,6 @@ C:\Users\murad\TodoApp\backend\TodoApp.Api\obj\Debug\net9.0\refint\TodoApp.Api.d
 C:\Users\murad\TodoApp\backend\TodoApp.Api\obj\Debug\net9.0\TodoApp.Api.pdb
 C:\Users\murad\TodoApp\backend\TodoApp.Api\obj\Debug\net9.0\TodoApp.Api.genruntimeconfig.cache
 C:\Users\murad\TodoApp\backend\TodoApp.Api\obj\Debug\net9.0\ref\TodoApp.Api.dll
+C:\Users\murad\TodoApp\backend\TodoApp.Api\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\murad\TodoApp\backend\TodoApp.Api\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\murad\TodoApp\backend\TodoApp.Api\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll

@@ -10,3 +10,6 @@ C:\Users\murad\TodoApp\backend\TodoApp.Base\obj\Debug\net9.0\TodoApp.Base.dll
 C:\Users\murad\TodoApp\backend\TodoApp.Base\obj\Debug\net9.0\refint\TodoApp.Base.dll
 C:\Users\murad\TodoApp\backend\TodoApp.Base\obj\Debug\net9.0\TodoApp.Base.pdb
 C:\Users\murad\TodoApp\backend\TodoApp.Base\obj\Debug\net9.0\ref\TodoApp.Base.dll
+C:\Users\murad\TodoApp\backend\TodoApp.Base\bin\Debug\net9.0\TodoApp.Base.runtimeconfig.json
+C:\Users\murad\TodoApp\backend\TodoApp.Base\obj\Debug\net9.0\TodoApp.Base.csproj.AssemblyReference.cache
+C:\Users\murad\TodoApp\backend\TodoApp.Base\obj\Debug\net9.0\TodoApp.Base.genruntimeconfig.cache

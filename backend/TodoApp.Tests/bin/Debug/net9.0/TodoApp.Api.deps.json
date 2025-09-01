@@ -1031,6 +1031,9 @@
         }
       },
       "TodoApp.Base/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "9.0.8"
+        },
         "runtime": {
           "TodoApp.Base.dll": {
             "assemblyVersion": "1.0.0.0",
