@@ -12,7 +12,14 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<TodoDbContext>(options =>
 {
     var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
-    options.UseSqlServer(connectionString);
+    options.UseSqlServer(
+        connectionString,
+        sqlServerOptions => sqlServerOptions.EnableRetryOnFailure(
+            maxRetryCount: 5,
+            maxRetryDelay: TimeSpan.FromSeconds(10),
+            errorNumbersToAdd: null
+        )
+    );
 });
 
 builder.Services.AddScoped<ITodoService, TodoService>();

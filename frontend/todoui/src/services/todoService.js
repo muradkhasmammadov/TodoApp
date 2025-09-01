@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "https://localhost:7034/api/Todos";
+const API_URL = process.env.REACT_APP_API_URL || "http://localhost:5034/api/Todos";
 
 export const getTodos = async (params) => {
   const response = await axios.get(API_URL, { params });
