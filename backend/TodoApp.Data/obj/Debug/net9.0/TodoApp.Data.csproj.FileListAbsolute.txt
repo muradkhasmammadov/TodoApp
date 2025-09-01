@@ -1,0 +1,16 @@
+C:\Users\murad\TodoApp\backend\TodoApp.Data\bin\Debug\net9.0\TodoApp.Data.deps.json
+C:\Users\murad\TodoApp\backend\TodoApp.Data\bin\Debug\net9.0\TodoApp.Data.dll
+C:\Users\murad\TodoApp\backend\TodoApp.Data\bin\Debug\net9.0\TodoApp.Data.pdb
+C:\Users\murad\TodoApp\backend\TodoApp.Data\bin\Debug\net9.0\TodoApp.Base.dll
+C:\Users\murad\TodoApp\backend\TodoApp.Data\bin\Debug\net9.0\TodoApp.Base.pdb
+C:\Users\murad\TodoApp\backend\TodoApp.Data\obj\Debug\net9.0\TodoApp.Data.csproj.AssemblyReference.cache
+C:\Users\murad\TodoApp\backend\TodoApp.Data\obj\Debug\net9.0\TodoApp.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\murad\TodoApp\backend\TodoApp.Data\obj\Debug\net9.0\TodoApp.Data.AssemblyInfoInputs.cache
+C:\Users\murad\TodoApp\backend\TodoApp.Data\obj\Debug\net9.0\TodoApp.Data.AssemblyInfo.cs
+C:\Users\murad\TodoApp\backend\TodoApp.Data\obj\Debug\net9.0\TodoApp.Data.csproj.CoreCompileInputs.cache
+C:\Users\murad\TodoApp\backend\TodoApp.Data\obj\Debug\net9.0\TodoApp.Data.sourcelink.json
+C:\Users\murad\TodoApp\backend\TodoApp.Data\obj\Debug\net9.0\TodoApp..04C6B052.Up2Date
+C:\Users\murad\TodoApp\backend\TodoApp.Data\obj\Debug\net9.0\TodoApp.Data.dll
+C:\Users\murad\TodoApp\backend\TodoApp.Data\obj\Debug\net9.0\refint\TodoApp.Data.dll
+C:\Users\murad\TodoApp\backend\TodoApp.Data\obj\Debug\net9.0\TodoApp.Data.pdb
+C:\Users\murad\TodoApp\backend\TodoApp.Data\obj\Debug\net9.0\ref\TodoApp.Data.dll
